@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>ES5 example</h1>
+        <script type="test/javascript">
+            function Employee(name,age){
+                this.name=name;
+                this.age=age;
+            }
+            Employee.protoytpe.display= function(){
+                document.write("<h3>Name: "+this.name+", Age: "+this.age+"</h3>");
+            }
+            var employee = new Employee("Rahul",35);
+            employee.display();
+        </script>
+    </body>
+</html>
